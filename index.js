@@ -20,7 +20,7 @@ function calculatesFarePrice(start, destination) {
   else if (dif > 400 && dif < 2000)
     return (dif -400) * 0.02;
   else if (dif > 2000 && dif < 2500)
-    return "flat fare";
+    return 25;
   else
     return "cannot travel that far";
 }
