@@ -23,4 +23,9 @@ function calculatesFarePrice(start, destination) {
     return 25;
   else
     return "cannot travel that far";
+    switch(dif) {
+      
+    }
+      case(dif <400):
+        return 0;
 }
