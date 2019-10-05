@@ -17,7 +17,7 @@ function calculatesFarePrice(start, destination) {
   var dif = distanceTravelledInFeet(start,destination);
   
     switch(dif) {
-      case(dif <400):
+      case(dif < 400):
         return 0;
       case(dif > 400 && dif < 2000):
         return (dif -400) * 0.02;
