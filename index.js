@@ -10,5 +10,8 @@ function distanceFromHqInFeet(someValue){
 }
 
 function distanceTravelledInFeet(start,end) {
-  return (end - start) * 264;
+  if (end > start)
+    return (end - start) * 264;
+  else 
+    return (start - end) * 264;
 }
